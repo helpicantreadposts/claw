@@ -12,6 +12,8 @@
 - **Content Strategy:** Established a "Top 50" rolling queue (`content/queue.json`).
 - **Model Strategy:** Defaulting to Gemini 3 Flash for speed, with [ESCALATE_TO_PRO] protocol for complex logic.
 - **Git Protocol:** Repaired corrupted index. Configured automatic "Night Save" (23:00) with security-hardened `.gitignore`.
+- **Infrastructure:** Installed Docker and Docker Compose on Pi 5.
+- **YouTube Automation:** Initiated "Stealth Browser" setup using Puppeteer with persistent session storage (`.puppeteer-youtube-session`).
 
 ### Lessons Learned
 - **Auth:** `gog` CLI requires `GOG_KEYRING_PASSWORD` in headless environments.

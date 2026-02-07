@@ -33,3 +33,5 @@ Credentials have been moved to the secure file: `credentials/creds.txt`. Do not 
 
 - **Path:** `/home/vinny/post2reel`
 - **Purpose:** Core video generation logic and scripts
+- **Generation Timeout:** 20 minutes (Abort if exceeded)
+- **Delivery:** Telegram (8559348001) until social media posting is configured.
