@@ -1,0 +1,19 @@
+# Ignore everything
+*
+
+# Allow traversing into workspace
+!workspace/
+
+# Whitelist specific files
+!workspace/HEARTBEAT.md
+!workspace/IDENTITY.md
+!workspace/SOUL.md
+!workspace/TOOLS.md
+!workspace/USER.md
+!workspace/AGENTS.md
+!workspace/MEMORY.md
+!workspace/content/
+!workspace/content/*.json
+
+# Keep the gitignore itself
+!.gitignore

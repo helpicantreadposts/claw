@@ -1,0 +1,4 @@
+credentials/
+skills/
+.clawhub/
+*.tar.gz
