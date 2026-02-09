@@ -43,6 +43,7 @@
 - **Crop Logic:** When capturing headers or titles, use dynamic bounding box calculation (`Math.min/max` of all sub-elements) to avoid partial crops.
 - **Aggressive Text Scaling:** Use 42px+ fonts and 1080x960 Puppeteer viewports to ensure text is rendered at native scale for split-screen formats without blurry resizing.
 - **Split Screen Fit:** Use `force_original_aspect_ratio=decrease` and `pad` filters in FFmpeg to fit screenshots into the 1080x960 split-screen area without zooming.
+- **Viral Success:** Successfully uploaded reshot Video #2 (ID: qyiSJWIjliE) with "Big Text" overhaul and exaggerated upvotes.
 - **Task Protocol:** Automated strategy generation and analytics tracking keep the growth engine running without manual prompting.
 - **Analytics:** Maintaining a persistent `ANALYTICS.md` allows for longitudinal tracking of hypotheses and strategy shifts.
 - **Google Calendar:** API requires ISO timestamps with timezone/Z for event creation.
