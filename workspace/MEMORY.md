@@ -31,6 +31,9 @@
 - **Split Screen Format:** Implemented FFmpeg logic for "Split Screen Insight" format. Top half: Reddit/Text; Bottom half: Background assets. Configurable via `splitScreen: true` in output config.
 - **Automated SEO:** Integrated `seo.ts` into the generation pipeline. Automatically generates viral titles, descriptions, and tags for each video based on the Reddit content.
 - **Pipeline Stability:** Verified core generation logic remains intact while adding new features. Updated `OutputConfigSchema` to support the new format toggle.
+- **Scrolly-Highlight Format:** Implemented a "Reddit Clone" HTML template with real-time scrolling and word highlighting. Requires `scrolly: true` in config and uses Puppeteer frame-by-frame recording for perfect sync. Finalized "Perfect Layout" (Attempt #18) with 120px gargantuan title, 64px body text, and full-page scrolling.
+- **Aggressive Zoom (Attempt #13):** Optimized for mobile by increasing body text to 64px (from 42px), line-height 1.5, and reducing word count per screen to create a focused, high-retention reading experience.
+- **Task Protocol:** Automated strategy generation and analytics tracking keep the growth engine running without manual prompting.
 
 ### Lessons Learned
 - **Content Coverage:** Ensure `screenshots: true` is set in the generation request to capture the full Reddit body text; otherwise, it defaults to the title only.
@@ -43,7 +46,7 @@
 - **Crop Logic:** When capturing headers or titles, use dynamic bounding box calculation (`Math.min/max` of all sub-elements) to avoid partial crops.
 - **Aggressive Text Scaling:** Use 42px+ fonts and 1080x960 Puppeteer viewports to ensure text is rendered at native scale for split-screen formats without blurry resizing.
 - **Split Screen Fit:** Use `force_original_aspect_ratio=decrease` and `pad` filters in FFmpeg to fit screenshots into the 1080x960 split-screen area without zooming.
-- **Viral Success:** Successfully uploaded reshot Video #2 (ID: qyiSJWIjliE) with "Big Text" overhaul and exaggerated upvotes.
+- **Viral Success:** Successfully uploaded reshot Video #2 (ID: qyiSJWIjliE) and perfected Video #1 (ID: 0RNsreR6atU).
 - **Task Protocol:** Automated strategy generation and analytics tracking keep the growth engine running without manual prompting.
 - **Analytics:** Maintaining a persistent `ANALYTICS.md` allows for longitudinal tracking of hypotheses and strategy shifts.
 - **Google Calendar:** API requires ISO timestamps with timezone/Z for event creation.
