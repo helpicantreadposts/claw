@@ -50,3 +50,10 @@
 - **Task Protocol:** Automated strategy generation and analytics tracking keep the growth engine running without manual prompting.
 - **Analytics:** Maintaining a persistent `ANALYTICS.md` allows for longitudinal tracking of hypotheses and strategy shifts.
 - **Google Calendar:** API requires ISO timestamps with timezone/Z for event creation.
+
+### 2026-02-13 - Reliability & Pivot
+- **Scheduler Hardening:** Fixed "Silent Failure" and "Next-Heartbeat" passive mode issues by moving core triggers to the main session and updating HEARTBEAT.md.
+- **Shorts Compliance:** Patched pipeline with a 160-word hard cap and 58s render target to ensure all uploads hit the Shorts feed.
+- **Background Rotation Policy:** Implemented strict rotation of background assets. Every video must use a different background from the last to avoid "Repetitive Content" flags.
+- **Pause 2 See:** Initiated new codebase at `/home/vinny/pause2see` for gamified "Roulette" style content.
+- **Visual Diversity:** Broadening background library beyond Minecraft to include Sand Cutting, Slime, and ASMR visuals.

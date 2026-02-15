@@ -3,6 +3,10 @@
 # Daily Routine for Post2Reel
 # This file governs the bot's periodic activities.
 
+## MANDATORY STATUS PINGS
+- If a generation takes longer than 5 minutes, send a status update to Braden ("Still rendering...").
+- Notify Braden the second research is complete and generation begins.
+
 ## 07:30 - Strategy Phase
 # - Task: Brainstorm and generate PossiblePlan_Date.md.
 # - Goal: Send the plan to Braden at exactly 08:00 MST.
@@ -17,7 +21,7 @@
 # - Goal: Have it ready for review by 09:30.
 
 ## 14:00 - Mid-Day Check
-# - Engagement: check analytics, see what performs well.
+# - Engagement: Monitor analytics ONCE DAILY at this time (NO hourly checks).
 # - Trends: Scan for rising topics for the evening video.
 
 ## 17:00 - Evening Shift

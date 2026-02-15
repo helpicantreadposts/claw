@@ -8,7 +8,7 @@
 
 ### Sources
 - **Reddit:** r/AskReddit, r/AmITheAsshole, r/confessions, r/tifu
-- **Shorts Optimization:** Prioritize punchy, high-retention stories. For longer threads, consider "Part 1/Part 2" formats or aggressive editing to keep videos under 60 seconds.
+- **Shorts Optimization:** Prioritize punchy, high-retention stories. Aim for shorter Reddit posts (under 1000 characters) to keep videos quick and high-paced. For longer threads, consider "Part 1/Part 2" formats or aggressive editing to keep videos under 60 seconds.
 - **Backgrounds:** Minecraft Parkour (No Copyright), Satisfying Slime/Sand Cutting
 
 ### Output
