@@ -12,8 +12,13 @@
 !workspace/USER.md
 !workspace/AGENTS.md
 !workspace/MEMORY.md
+!workspace/ANALYTICS.md
+!workspace/PossiblePlan_*.md
 !workspace/content/
 !workspace/content/*.json
+!workspace/memory/
+!workspace/memory/*.md
+!workspace/memory/*.json
 
 # Keep the gitignore itself
 !.gitignore
