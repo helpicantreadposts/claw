@@ -3,11 +3,17 @@
     "email": 1771310070,
     "calendar": 1771405620,
     "weather": null,
-    "video1_generation": 1771321676,
-    "video2_generation": 1771351614,
-    "analytics_check": 1771344000,
+    "video1_generation": 1771589201,
+    "video2_generation": 1771623731,
+    "analytics_check": 1771589201,
     "strategy_phase": 1771403460,
     "research_phase": 1771405620,
-    "youtube_upload": 1771462200
+    "youtube_upload": 1771599600,
+    "experimental_shift": 1771466100,
+    "roulette_fix": 1771523400,
+    "nano_ai_gen": 1771475400,
+    "multi_line_fix": 1771476000,
+    "vertical_stack_fix": 1771477200,
+    "find_out_fix": 1771546000
   }
 }
