@@ -3,14 +3,16 @@
 ## Performance Log
 - **Daily Check (14:00 MST):** Analyze reach, retention, and engagement.
 
-### Check: 2026-02-15 14:00 MST
+### Check: 2026-02-21 14:00 MST
 | Video Title | Views | AVD (sec) | % Viewed |
 | :--- | :--- | :--- | :--- |
-| Car Roulette | - | - | - |
-| AITA (Baby Name) | - | - | - |
+| AITA (DD Drinker) | - | - | - |
+| AITA (Uncle Homeschool) | - | - | - |
 
 **Summary:**
-Analytics check delayed due to expired YouTube API token. Both the Morning Shift (AITA reshoot) and Evening Shift (Car Roulette) are rendered and uploaded to Drive, but pending YouTube upload.
+- Video #1 (AITA DD Drinker) successfully uploaded at 15:41 GMT. 
+- Video from Feb 20 (Uncle Homeschool) verified on Drive.
+- Evening shift (Video #2) upcoming. Enforcing unique background policy.
 
 **Status:**
 - Re-authorization process in progress.
