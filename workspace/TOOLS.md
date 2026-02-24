@@ -19,6 +19,10 @@
   - Upload Script: `node /home/vinny/.openclaw/workspace/youtube-push.js <path> <title> <description>`
   - Credentials: `/home/vinny/.openclaw/workspace/credentials/`
 
+- **TikTok Automation:**
+  - Upload Script: `node /home/vinny/.openclaw/workspace/tiktok-push.js <videoPath> <caption>`
+  - Session: `/home/vinny/.puppeteer-tiktok-session`
+
 ## Task Protocol (MANDATORY)
 Before starting ANY major task (creation, research, engagement):
 1. **Notify Braden:** Send a Telegram message.

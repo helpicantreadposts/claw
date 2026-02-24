@@ -38,6 +38,7 @@
 ### Lessons Learned
 - **Content Coverage:** Ensure `screenshots: true` is set in the generation request to capture the full Reddit body text; otherwise, it defaults to the title only.
 - **FFmpeg Filters:** Ensure filter chains are properly terminated; `filter_complex` errors can occur if a semicolon is misplaced or a link is unused.
+- **Background Strategy (RETIRED):** Minecraft backgrounds are officially banned as of 2026-02-22. Use Satisfying Slime, Sand Cutting, or ASMR assets to maintain high retention and variety.
 - **Cron Reliability:** Cron jobs may skip if the nextRunAtMs is set in the past or if the system clock drifts. Always verify "next-run" against current time after timezone changes.
 - **Manual Overrides:** Use `sessions_spawn` to force-run missed periodic tasks immediately.
 - **Video Coverage:** Always verify that background generation jobs (Evening/Morning) have actually produced a file before assuming the shift is over.
