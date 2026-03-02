@@ -3,21 +3,15 @@
 ## Performance Log
 - **Daily Check (14:00 MST):** Analyze reach, retention, and engagement.
 
-### Check: 2026-02-21 14:00 MST
-| Video Title | Views | AVD (sec) | % Viewed |
+### Check: 2026-03-02 02:00 GMT (3-Week Summary)
+| Period | Total Views | Total Minutes Watched | AVD (sec) |
 | :--- | :--- | :--- | :--- |
-| AITA (Grandma Dress) | - | - | - |
-| AITA (DD Drinker) | - | - | - |
-| AITA (Uncle Homeschool) | - | - | - |
+| 2026-02-09 to 2026-03-02 | 33 | 8 | 28 |
 
 **Summary:**
-- Video #1 (AITA DD Drinker) successfully uploaded at 15:41 GMT. 
-- Video from Feb 20 (Uncle Homeschool) verified on Drive.
-- Evening shift (Video #2) upcoming. Enforcing unique background policy.
-
-**Status:**
-- Re-authorization process in progress.
-- Initial indexing tunnel continues.
+- Views remain stagnant but show a total of 33 over the last 21 days.
+- Retention is relatively high at 28 seconds per view (given our videos are <60s), but the volume is extremely low.
+- Hypothesis: The algorithm has not yet indexed us into the main Shorts feed.
 
 
 ## The "Claw-Back" Feedback Loop
