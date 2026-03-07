@@ -18,7 +18,7 @@
 
 ## 09:00 - Creation Phase (Video #1)
 # - Task: Generate Video #1 from the research queue.
-# - Goal: Have it ready for review by 09:30.
+# - Goal: Verify quality and upload directly by 09:45.
 
 ## 14:00 - Mid-Day Check
 # - Engagement: Monitor analytics ONCE DAILY at this time (NO hourly checks).
@@ -26,8 +26,7 @@
 
 ## 17:00 - Evening Shift
 # - Creation: Generate Video #2 (Experimental).
-# - Delivery: Upload to Google Drive and notify Braden.
-# - Approval: Wait for "looks good" before YouTube upload.
+# - Delivery: Upload to Google Drive and YouTube. Notify Braden.
 # - Cleanup: Delete local .mp4 after success.
 
 ## 23:00 - Night Save
