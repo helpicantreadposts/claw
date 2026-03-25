@@ -35,7 +35,15 @@
 - **Aggressive Zoom (Attempt #13):** Optimized for mobile by increasing body text to 64px (from 42px), line-height 1.5, and reducing word count per screen to create a focused, high-retention reading experience.
 - **Task Protocol:** Automated strategy generation and analytics tracking keep the growth engine running without manual prompting.
 
+### 2026-03-21 - Surf-Style Mastered (Attempt #5 Approved)
+- **Tuning Perfected:** Braden officially approved Attempt #5 as the new production standard.
+- **Visuals:** 1.2x aggressive scaling, dual-layered yellow glow, and a dynamic **Adaptive Card Height** that starts tight on the title and expands smoothly (0.8s transition) once the body reading begins.
+- **Pacing:** Established 1.25x narration speed with a mandatory 1.2s dramatic pause between the title and body.
+- **Workflow:** All future daily renders will utilize the `ScrollyInput` unified container with adaptive height triggering at the `titleWordCount` boundary.
+
 ### Lessons Learned
+- **Initial Height Trap:** Providing initial padding (e.g., `80vh`) to a scrolly container forces the card to its full height immediately. Adaptive height requires initial padding to be `0` and only injected via JS once expansion is needed.
+- **Pacing Contrast:** A dramatic pause (1.2s) between the hook (title) and the payoff (body) significantly improves the narrative "premium" feel.
 - **Content Coverage:** Ensure `screenshots: true` is set in the generation request to capture the full Reddit body text; otherwise, it defaults to the title only.
 - **FFmpeg Filters:** Ensure filter chains are properly terminated; `filter_complex` errors can occur if a semicolon is misplaced or a link is unused.
 - **Background Strategy (RETIRED):** Minecraft backgrounds are officially banned as of 2026-02-22. Use Satisfying Slime, Sand Cutting, or ASMR assets to maintain high retention and variety.

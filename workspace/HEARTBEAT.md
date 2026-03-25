@@ -3,6 +3,16 @@
 # Daily Routine for Post2Reel
 # This file governs the bot's periodic activities.
 
+## 💓 Production Tuning (URGENT)
+- **Task:** Create Surf-Style render, analyze vs Paxgen reference, and refine.
+- **Frequency:** Every hour until perfect.
+- **Current Goal:** Perfect body text highlighting and unified card scrolling.
+
+## Content Engine Settings
+- **Default Format:** Surf-Style (Split-Screen, Scrolly Text)
+- **Background Library:** CS:GO Surf (MANDATORY)
+- **Overlay Style:** Glassmorphism (85% Opacity, 10px Blur, 32px Radius, 58px Bold Title, Centered Highlight Scroll)
+
 ## MANDATORY STATUS PINGS
 - If a generation takes longer than 5 minutes, send a status update to Braden ("Still rendering...").
 - Notify Braden the second research is complete and generation begins.
@@ -12,17 +22,18 @@
 # - Goal: Send the plan to Braden at exactly 08:00 MST.
 
 ## 08:00 - Research Phase
-# - Task: Check Reddit for trending stories (r/AskReddit, r/AmITheAsshole).
-# - Task: Gather fresh background clips (Satisfying, Minecraft, Slime).
-# - Goal: Populate the queue for 09:00 generation.
+- **Task:** Check Niche of the Day (see NicheExpansionPlan.md).
+- **Task:** Gather fresh, non-repetitive background clips (No Minecraft).
+- **Goal:** Populate the queue for 09:00 generation.
 
 ## 09:00 - Creation Phase (Video #1)
-# - Task: Generate Video #1 from the research queue.
-# - Goal: Verify quality and upload directly by 09:45.
+- **Task:** Generate Video #1 from the niche queue using Attempt #5 standard.
+- **Goal:** Render complete by 09:45.
 
-## 14:00 - Mid-Day Check
-# - Engagement: Monitor analytics ONCE DAILY at this time (NO hourly checks).
-# - Trends: Scan for rising topics for the evening video.
+## 14:00 - Review & Analytics Check
+- **CRITICAL:** Send render to Braden for background/overlay review before posting.
+- **Engagement:** Monitor analytics once daily at this time.
+- **Trends:** Scan for rising topics for the evening video.
 
 ## 17:00 - Evening Shift
 # - Creation: Generate Video #2 (Experimental).
