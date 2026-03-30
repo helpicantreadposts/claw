@@ -1,29 +1,23 @@
-# Possible Plan for 2026-03-30
+# Possible Plan for 2026-03-30 (REVISED)
 
-## 🎯 Production Goal: Monday Morning Momentum
-Leveraging Niche #2 (Office Drama) and Niche #1 (Social Conflict) for the first official Monday shift.
+## 🎯 Production Goal: Stability & Momentum
+After the morning OOM (Out of Memory) incident with long scripts, we are pivoting to shorter, high-impact posts to ensure successful delivery.
 
 ### 🎥 Content Selection
-1. **Video #1 (Morning):** "My manager used ChatGPT to write my performance review and it didn't even understand my role." (r/antiwork)
-   - **Niche:** Niche #2: The Office Nightmare (Peak Relatability on Monday Morning)
-   - **Length:** ~1000 chars (Detailed drama)
-   - **Format:** Surf-Style (Split-Screen, Scrolly Text)
-   - **Background:** CS:GO Surf (MANDATORY)
-   - **Narration:** Adam (1.25x speed, 1.2s Title Pause)
+1. **Video #1 (RE-RUN):** "AITA for refusing to buy protection?" (r/AITAH)
+   - **Note:** Successfully rendered this morning during recovery. Needs upload verification.
+   - **Length:** ~600 chars (Safe)
 2. **Video #2 (Evening):** "AITA for peeing standing up in a traffic jam?" (r/AmItheAsshole)
-   - **Niche:** Niche #1: The Social Conflict (High Debate)
+   - **Niche:** Niche #1: The Social Conflict
    - **Length:** ~900 chars (Punchy)
-   - **Background:** CS:GO Surf (New asset)
+   - **Background:** CS:GO Surf
    - **Narration:** Adam (1.25x speed, 1.2s Title Pause)
 
 ## 🛠️ Execution Steps
-1. **Research (08:30 MST):** Verify current queue against any new viral spikes.
-2. **Production (09:00 MST):** Generate Video #1 using Attempt #5 standard.
-3. **Review & Analytics (14:00 MST):** Check YouTube performance and notify Braden.
+1. **Research (08:30 MST):** Identify one more "Micro-Drama" (<500 chars) as a backup.
+2. **Production (09:00 MST):** Attempt a clean render of a shorter post if Video #1 is already good.
+3. **Review & Analytics (14:00 MST):** YouTube metrics check.
 4. **Evening Shift (17:00 MST):** Generate and upload Video #2.
 
-## 📊 Performance Hypothesis
-Monday mornings are prime for "Office Nightmare" content as people commute or procrastinate at work.
-
 ---
-*Status: Strategy Initialized (Autonomous)*
+*Status: Strategy Revised due to OOM Incident*
