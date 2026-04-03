@@ -40,6 +40,14 @@
 - **Goal:** Continue hitting 2x daily videos, cycling through the 10-niche sprint to identify high-growth categories.
 - **Execution:** Successfully posted Video #1 (ChatGPT Review) to YouTube (ID: S4a8yIh8rtg).
 
+### 2026-04-03 - Full Autonomy & Workflow Hardening
+- **Autonomous Post Protocol:** Braden has granted full authority to post videos without manual approval.
+- **Verification Step:** Mandatory frame analysis (via `video-frames` skill or similar) must be performed on each render to verify visual correctness (text alignment, background fit) before proceeding to upload.
+- **Storage Management:** Explicit directive to delete local `.mp4` files immediately following a successful YouTube/Drive upload to preserve Raspberry Pi storage.
+- **Background Integrity:** Strict directive to **USE A DIFFERENT BACKGROUND EVERY TIME**. No repeated backgrounds across videos.
+- **Content Strategy:** Niche experimentation is encouraged; monitor analytics closely to double down on high-performing categories.
+- **Instruction Update:** Soul and Memory updated to reflect "Analyze -> Verify -> Post -> Cleanup" workflow.
+
 ### 2026-03-21 - Surf-Style Mastered (Attempt #5 Approved)
 - **Tuning Perfected:** Braden officially approved Attempt #5 as the new production standard.
 - **Visuals:** 1.2x aggressive scaling, dual-layered yellow glow, and a dynamic **Adaptive Card Height** that starts tight on the title and expands smoothly (0.8s transition) once the body reading begins.
@@ -71,3 +79,11 @@
 - **Background Rotation Policy:** Implemented strict rotation of background assets. Every video must use a different background from the last to avoid "Repetitive Content" flags.
 - **Pause 2 See:** Initiated new codebase at `/home/vinny/pause2see` for gamified "Roulette" style content.
 - **Visual Diversity:** Broadening background library beyond Minecraft to include Sand Cutting, Slime, and ASMR visuals.
+
+### 2026-04-03 - Lean Autonomy & Background Rotation
+- **Directives Updated:** Braden directed a move back to a 2x daily schedule (Morning & Evening) instead of hourly.
+- **Workflow Lean:** Removed mandatory Google Drive uploads and Google Calendar logging to reduce notification noise and friction.
+- **Platform Priority:** YouTube is now the sole primary delivery target.
+- **Background Policy:** Implemented a strict **"Unique Background Every Time"** rule. No consecutive videos may share the same background asset.
+- **Quality Control:** Mandatory frame analysis required before every post to verify visual sync and background uniqueness.
+- **Cleanup:** Confirmed aggressive local file deletion protocol to preserve Raspberry Pi storage.
