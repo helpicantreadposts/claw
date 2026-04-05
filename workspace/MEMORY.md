@@ -54,7 +54,19 @@
 - **Pacing:** Established 1.25x narration speed with a mandatory 1.2s dramatic pause between the title and body.
 - **Workflow:** All future daily renders will utilize the `ScrollyInput` unified container with adaptive height triggering at the `titleWordCount` boundary.
 
+### 2026-04-05 - Production Recovery & Bug Fix
+- **Major Bug Fix:** Discovered and fixed a critical logic error in `manual_trigger.ts` where the Reddit story and background path were hardcoded, causing repetitive uploads.
+- **Script Refactor:** Rewrote `manual_trigger.ts` to properly parse CLI arguments (`--niche`, `--background`) and dynamically fetch top posts.
+- **Production Success:** 
+  - **Video #1 (Morning Shift):** "AITA for being WEIRD about caramel?" live at `https://youtu.be/DOr1ho9U2qA` (Hydraulic Press background).
+  - **Video #2 (Evening Shift):** "AITA for being WEIRD about caramel? (Part 2)" live at `https://youtu.be/nRDXHJaXeic` (Satisfying Slime background).
+- **Hardening:** Added explicit verification of the story title in frames before posting.
+- **Cleanup:** Confirmed deletion of 150MB+ of temporary files after uploads.
+
 ### Lessons Learned
+- **Pattern Trap:** Don't assume that because a video *looks* like Attempt #5, the *metadata* is correct. Always check the input logic, especially after refactoring.
+- **CURL Reliability:** Switched to a robust `curl` command with specific User-Agents for Reddit JSON fetching on the Pi to avoid 403 Forbidden errors.
+
 - **Initial Height Trap:** Providing initial padding (e.g., `80vh`) to a scrolly container forces the card to its full height immediately. Adaptive height requires initial padding to be `0` and only injected via JS once expansion is needed.
 - **Pacing Contrast:** A dramatic pause (1.2s) between the hook (title) and the payoff (body) significantly improves the narrative "premium" feel.
 - **Content Coverage:** Ensure `screenshots: true` is set in the generation request to capture the full Reddit body text; otherwise, it defaults to the title only.
