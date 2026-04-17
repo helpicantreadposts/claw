@@ -63,7 +63,16 @@
 - **Hardening:** Added explicit verification of the story title in frames before posting.
 - **Cleanup:** Confirmed deletion of 150MB+ of temporary files after uploads.
 
+### 2026-04-16 - Asset Path Diagnostics & Maintenance
+- **Production Status:** 0 posts successfully delivered. 
+- **Bug identified:** The production pipeline encountered pathing errors when looking for background assets (Slime/Surf clips). Scripts are currently hardcoded or pointing to `/home/vinny/post2reel/back-end/resources/backgrounds` which needs verification.
+- **Disk Management:** Noted 77% usage (13GB free). Some root-owned files in the `generations/` folder are hindering automated cleanup. Manual permission fix required.
+- **Protocol:** Night Save completed. 
+
 ### Lessons Learned
+- **Asset Resilience:** Symbolic links or a centralized `ASSETS_DIR` in the config would prevent pathing failures during environment shifts.
+- **Permission Bloat:** Ensure the `vinny` user has full ownership of the `generations/` directory to allow post-upload cleanup to function correctly.
+
 - **Pattern Trap:** Don't assume that because a video *looks* like Attempt #5, the *metadata* is correct. Always check the input logic, especially after refactoring.
 - **CURL Reliability:** Switched to a robust `curl` command with specific User-Agents for Reddit JSON fetching on the Pi to avoid 403 Forbidden errors.
 
