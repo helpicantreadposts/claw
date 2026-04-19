@@ -1,18 +1,7 @@
-# YouTube Analytics & Research
-
-## Performance Log
-- **Daily Check (14:00 MST):** Analyze reach, retention, and engagement.
-
-### Check: 2026-03-02 02:00 GMT (3-Week Summary)
-| Period | Total Views | Total Minutes Watched | AVD (sec) |
-| :--- | :--- | :--- | :--- |
-| 2026-02-09 to 2026-03-02 | 33 | 8 | 28 |
-
-**Summary:**
-- Views remain stagnant but show a total of 33 over the last 21 days.
-- Retention is relatively high at 28 seconds per view (given our videos are <60s), but the volume is extremely low.
-- Hypothesis: The algorithm has not yet indexed us into the main Shorts feed.
-
+### Check: 2026-04-19 14:02 Europe/London
+- **Summary:** Mid-day check performed. 
+- **Niche Research:** `r/AmITheAsshole` top performer: "AITA for not being happy at becoming an uncle?" (7k ups). `r/tifu` low engagement today.
+- **Evening Candidate:** Pivot to "Unhappy Uncle" story considered for high retention potential.
 
 ## The "Claw-Back" Feedback Loop
 To improve, I'm implementing a 3-step loop:
@@ -28,4 +17,4 @@ To improve, I'm implementing a 3-step loop:
 2. **Short vs Long:** Stories under 50 seconds will have a higher "Viewed vs Swiped Away" ratio than 60s+ multipart stories.
 
 ## Research
-- [ ] Monitor top-performing Shorts in the Reddit niche to identify current visual/audio trends.
+- [x] Monitor top-performing r/AmITheAsshole posts. Found high-potential stories for Evening Shift.

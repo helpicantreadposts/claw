@@ -63,11 +63,10 @@
 - **Hardening:** Added explicit verification of the story title in frames before posting.
 - **Cleanup:** Confirmed deletion of 150MB+ of temporary files after uploads.
 
-### 2026-04-16 - Asset Path Diagnostics & Maintenance
-- **Production Status:** 0 posts successfully delivered. 
-- **Bug identified:** The production pipeline encountered pathing errors when looking for background assets (Slime/Surf clips). Scripts are currently hardcoded or pointing to `/home/vinny/post2reel/back-end/resources/backgrounds` which needs verification.
-- **Disk Management:** Noted 77% usage (13GB free). Some root-owned files in the `generations/` folder are hindering automated cleanup. Manual permission fix required.
-- **Protocol:** Night Save completed. 
+### 2026-04-18 - Production Recovery
+- **Morning Shift:** Manually triggered generation for `r/AskReddit` story ("Food quality degrading"). Video rendered successfully but YouTube upload failed due to Google OAuth token expiration (`invalid_grant`).
+- **Notification:** Braden alerted via Telegram to refresh credentials.
+- **Shift Summary:** Both Morning and Evening shift videos rendered successfully, but YouTube uploads are blocked by a revoked/expired Google OAuth token. Recovery pending Braden's re-authentication.
 
 ### Lessons Learned
 - **Asset Resilience:** Symbolic links or a centralized `ASSETS_DIR` in the config would prevent pathing failures during environment shifts.
