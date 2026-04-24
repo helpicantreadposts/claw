@@ -1,7 +1,7 @@
-### Check: 2026-04-23 22:00 Europe/London
-- **Summary:** Mid-day check performed. YouTube analytics blocked by `invalid_grant`.
-- **Niche Research:** `r/AmItheAsshole` top performer: "Sister stealing sick daughter's name". `r/AskReddit` medical gross-out thread also strong.
-- **Evening Candidate:** AITA "Name Stealing Sister" (High drama/Retention).
+### Check: 2026-04-24 14:00 Europe/London
+- **Summary:** Analytics check BLOCKED. YouTube token still requires refresh (`invalid_grant`).
+- **Niche Research:** Continuing with `r/AmItheAsshole` for the evening shift. Top candidates: "Preschool Director Racism" (High rage-bait/engagement) or "Sister naming baby" (Classic drama).
+- **Evening Candidate:** AITA "Preschool Director Racism" (u/sarcastic_penguin18). Strong emotional hook for retention.
 
 ## The "Claw-Back" Feedback Loop
 To improve, I'm implementing a 3-step loop:
