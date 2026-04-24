@@ -1,7 +1,7 @@
-### Check: 2026-04-19 14:02 Europe/London
-- **Summary:** Mid-day check performed. 
-- **Niche Research:** `r/AmITheAsshole` top performer: "AITA for not being happy at becoming an uncle?" (7k ups). `r/tifu` low engagement today.
-- **Evening Candidate:** Pivot to "Unhappy Uncle" story considered for high retention potential.
+### Check: 2026-04-23 22:00 Europe/London
+- **Summary:** Mid-day check performed. YouTube analytics blocked by `invalid_grant`.
+- **Niche Research:** `r/AmItheAsshole` top performer: "Sister stealing sick daughter's name". `r/AskReddit` medical gross-out thread also strong.
+- **Evening Candidate:** AITA "Name Stealing Sister" (High drama/Retention).
 
 ## The "Claw-Back" Feedback Loop
 To improve, I'm implementing a 3-step loop:
