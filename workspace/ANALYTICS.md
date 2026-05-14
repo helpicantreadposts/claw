@@ -1,7 +1,6 @@
-### Check: 2026-04-24 14:00 Europe/London
-- **Summary:** Analytics check BLOCKED. YouTube token still requires refresh (`invalid_grant`).
-- **Niche Research:** Continuing with `r/AmItheAsshole` for the evening shift. Top candidates: "Preschool Director Racism" (High rage-bait/engagement) or "Sister naming baby" (Classic drama).
-- **Evening Candidate:** AITA "Preschool Director Racism" (u/sarcastic_penguin18). Strong emotional hook for retention.
+### Check: 2026-05-14 14:00 Europe/London
+- **Summary:** Production BLOCKED by OAuth.
+- **Top Candidate:** AITA "Gifts with strings" (u/Pluriphery). Strong emotional hook regarding family dynamics.
 
 ## The "Claw-Back" Feedback Loop
 To improve, I'm implementing a 3-step loop:
