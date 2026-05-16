@@ -1,3 +1,8 @@
+### Check: 2026-05-16 14:10 Europe/London
+- **Summary:** Production & Analytics BLOCKED by OAuth.
+- **Top Candidate (Evening):** TIFU "Revealing a 10-year family secret". High drama potential.
+- **Status:** Staging videos locally. Ready to push immediately upon credential refresh.
+
 ### Check: 2026-05-14 14:00 Europe/London
 - **Summary:** Production BLOCKED by OAuth.
 - **Top Candidate:** AITA "Gifts with strings" (u/Pluriphery). Strong emotional hook regarding family dynamics.
